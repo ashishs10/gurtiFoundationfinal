@@ -1,4 +1,4 @@
-export const FacebookIcon = (className, ...rest) => (
+export const FacebookIcon = (className = "", ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={30}
@@ -15,7 +15,7 @@ export const FacebookIcon = (className, ...rest) => (
   </svg>
 );
 
-export const InstagramIcon = (className, ...rest) => (
+export const InstagramIcon = (className = "", ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={30}
@@ -112,7 +112,7 @@ export const InstagramIcon = (className, ...rest) => (
   </svg>
 );
 
-export const LinkedInIcon = (className, ...rest) => (
+export const LinkedInIcon = (className = "", ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={30}
@@ -140,7 +140,7 @@ export const LinkedInIcon = (className, ...rest) => (
   </svg>
 );
 
-export const WhatsAppIcon = (className, ...rest) => (
+export const WhatsAppIcon = (className = "", ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={30}
