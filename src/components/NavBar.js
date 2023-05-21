@@ -148,7 +148,7 @@ const NavBar = () => {
         <div
           className="min-w-[70vw] flex flex-col justify-between items-center
       fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-      z-30 bg-dark/90 rounded-lg background-blur-md py-32"
+      z-30 bg-dark/90 rounded-lg background-blur-md py-32 "
         >
           <nav className="flex items-center flex-col justify-center ">
             <CustomMobileLink
@@ -189,16 +189,13 @@ const NavBar = () => {
             />
           </nav>
           {/* social links */}
-          <nav
-            className="flex items-start flex-wrap justify-between
-      "
-          >
+          <nav className="overflow-hidden flex gap-4 mt-2 items-start flex-wrap justify-between">
             <motion.a
               href="https://www.instagram.com/gurti_foundation"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className=" mx-3"
+              className="w-[30px] h-[40px] overflow-hidden"
             >
               <InstagramIcon />
             </motion.a>
@@ -208,7 +205,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className=" mx-3"
+              className="w-[30px] h-[40px] overflow-hidden"
             >
               <LinkedInIcon />
             </motion.a>
@@ -217,7 +214,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className=" mx-3"
+              className="w-[30px] h-[40px] overflow-hidden"
             >
               <FacebookIcon />
             </motion.a>
@@ -226,7 +223,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="mx-3"
+              className="w-[30px] h-[40px] overflow-hidden"
             >
               <WhatsAppIcon />
             </motion.a>
